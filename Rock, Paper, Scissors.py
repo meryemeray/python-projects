@@ -54,4 +54,4 @@ while True:
         print("Draw. You both chose the same!")
     else:
         games_played += 1
-        print("Computer chose: " + computer + ". You lost.")
+        print("Computer chose " + computer + ". You lost.")
