@@ -33,7 +33,7 @@ while True:
         continue
         
     if rps != "rock" and rps != "paper" and rps != "scissors": #invalid input
-        print("Invalid input. Please try one of the options: Rock/Paper/Scissors/Q")
+        print("Invalid input. Please try one of the options: Rock/Paper/Scissors/Q/S")
         continue
 
     if rps == "paper" and computer == "rock": #paper wins against rock
